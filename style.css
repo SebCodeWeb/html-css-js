@@ -1,0 +1,52 @@
+header {
+    background-color: #24445c;
+    color: #b36700;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.8em;
+}
+header p {
+    text-align: center;
+    padding-bottom: 0.8em;
+}
+main {
+    display: flex;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    color: brown;
+    background-color: black;
+}
+nav {
+    width: 15em;
+    background-color: #24445c;
+    color: #b36700;
+    min-height: 100vh;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+}
+li {
+    padding: 0 2em 2em 2em;
+}
+section article {
+    width: 25em;
+    padding: 3em;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+}
+footer {
+    background-color: #24445c;
+    color: #b36700;
+    text-align: center;
+    padding: 2em;
+}
