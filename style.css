@@ -14,6 +14,7 @@ header p {
 }
 main {
     display: flex;
+    background-color: black;
 }
 section {
     display: flex;
@@ -26,17 +27,36 @@ nav {
     background-color: #24445c;
     color: #b36700;
     min-height: 100vh;
-}
-ul {
     display: flex;
     flex-direction: column;
 }
-li {
-    padding: 0 2em 2em 2em;
+button {
+    padding: 0.5em;
+    margin: 0.8em;
 }
 section article {
     width: 25em;
-    padding: 3em;
+    padding: 1em;
+}
+#articleUn {
+    color: red;
+    display: none;
+}
+#articleDeux {
+    color: saddlebrown;
+    display: none;
+}
+#articleTrois {
+    color: seagreen;
+    display: none;
+}
+#articleQuatre {
+    color: slateblue;
+    display: none;
+}
+#articleCinq {
+    color: teal;
+    display: none;
 }
 h2 {
     text-align: center;
